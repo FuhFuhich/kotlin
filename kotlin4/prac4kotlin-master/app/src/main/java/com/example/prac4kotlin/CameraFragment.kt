@@ -151,7 +151,6 @@ class CameraFragment : Fragment() {
             // Создание ImageCapture
             imageCapture = ImageCapture.Builder().build()
 
-            // Выбор задней камеры по умолчанию
             val cameraSelector = CameraSelector.DEFAULT_BACK_CAMERA
 
             try {
